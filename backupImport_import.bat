@@ -1,0 +1,1 @@
+n8n import:workflow --input=workflows_backup.json

@@ -1,0 +1,1 @@
+n8n export:workflow --all --output=workflows_backup.json
