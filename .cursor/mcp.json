@@ -1,0 +1,16 @@
+
+{
+    "mcpServers": {
+      "n8n-mcp": {
+        "command": "npx",
+        "args": ["n8n-mcp"],
+        "env": {
+          "MCP_MODE": "stdio",
+          "LOG_LEVEL": "error",
+          "DISABLE_CONSOLE_OUTPUT": "true",
+          "N8N_API_URL": "http://localhost:5678/home/workflows",
+          "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5ZWYwZDQxNS1mY2UxLTQ2YjUtODk1NS00MWQ1MDI5NDczYzciLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzU0MzgyMzkxfQ.xKDFKBN_qxOtLIe7PPNEfQ2CystrmMapbAlQvuiu84E"
+        }
+      }
+    }
+  }
